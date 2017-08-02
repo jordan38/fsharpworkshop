@@ -10,3 +10,5 @@ let purchases = (customer, 101M)
 let vipCustomer = tryPromoteToVip purchases
 
 let calculatedPurchases = getPurchases customer
+
+let upgradedCustomer = increaseCredit (fun c -> c.Id = 2) customer
